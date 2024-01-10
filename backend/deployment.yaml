@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: szymonov/backend:latest
+        image: szymonov/backend:RC-3.eac88da
         ports:
         - containerPort: 5001
       imagePullSecrets:
