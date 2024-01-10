@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: szymonov/frontend:latest
+        image: szymonov/frontend:RC-3.8007cd1
         ports:
         - containerPort: 5000
         env:
